@@ -28,7 +28,7 @@ const useFetch = (endpoint, query) => {
         } catch (error){
 
             setError(error);
-            alert('Error occurred while fetching data from API');
+            console.log(error);
 
         } finally {
             setIsLoading(false);
