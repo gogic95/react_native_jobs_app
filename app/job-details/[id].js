@@ -48,7 +48,7 @@ const JobDetails = () => {
                 {isLoading ? (
                     <ActivityIndicator size="large" color={COLORS.primary}/>
                 ) : error (
-                    <Text>Something went wrong</Text> ) }                  
+                    <Text>Something went wrong.</Text> ) }                  
                 
             </ScrollView>
         </>
